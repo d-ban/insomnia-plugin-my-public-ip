@@ -1,0 +1,24 @@
+{
+  "name": "insomnia-plugin-my-public-ip",
+  "version": "0.0.1",
+  "private": true,
+  "insomnia": {
+    "name": "my-public-ip",
+    "description": "Get public ip adress"
+  },
+  "keywords": [
+  "insomnia",
+  "plugin",
+  "custom",
+  "ip",
+  "public"
+],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-ban/insomnia-plugin-my-public-ip.git"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
