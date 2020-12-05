@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 
-async function getPubliIp(provider){
+async function getPublicIp(provider){
 const myip = await fetch(provider);
     let ip = await myip.text();
     return ip.trim()
@@ -19,6 +19,6 @@ module.exports.templateTags = [{
     ],
     async run(context, provider) {
         console.log(provider)
-        return getPubliIp(provider);
+        return getPublicIp(provider);
     }
 }];
