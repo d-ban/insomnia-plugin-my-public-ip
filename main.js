@@ -18,7 +18,6 @@ module.exports.templateTags = [{
         }
     ],
     async run(context, provider) {
-        console.log(provider)
         return getPublicIp(provider);
     }
 }];

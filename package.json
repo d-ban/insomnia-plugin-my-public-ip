@@ -2,15 +2,17 @@
   "name": "insomnia-plugin-my-public-ip",
   "version": "0.0.1",
   "private": true,
+  "author": "d-ban",
   "insomnia": {
     "name": "my-public-ip",
-    "description": "Get public ip adress"
+    "description": "Get public ip address"
   },
   "keywords": [
   "insomnia",
   "plugin",
   "custom",
   "ip",
+  "address",
   "public"
 ],
   "repository": {
